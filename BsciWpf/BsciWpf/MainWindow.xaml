@@ -20,6 +20,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
@@ -29,6 +30,8 @@
         
         <Button x:Name="Button" Content="Click Me" FontSize="29" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Click="Button_Click"/>
         <Label x:Name="newLabel" Grid.Row="4" Grid.Column="1" Content="{Binding Path=covik.Ime}" FontSize="28" Grid.ColumnSpan="3"/>
+        <Label x:Name="newLabel2" Grid.Row="5" Grid.Column="1" Content="{Binding Path=model.Ime}" FontSize="28" Grid.ColumnSpan="1"/>
+        <Label x:Name="newLabel3" Grid.Row="5" Grid.Column="2" Content="{Binding Path=model.Content}" FontSize="28" Grid.ColumnSpan="1"/>
 
 
     </Grid>

@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BsciWpf.Model;
+using BsciWpf.ViewModel;
 
 namespace BsciWpf
 {
@@ -20,15 +22,13 @@ namespace BsciWpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Covik covik { get; set; }
-
         public MainWindow()
         {
             InitializeComponent();
-            covik = new Covik() { Id = 1, Ime = "Rota" };
-
-            this.DataContext = this;
+            this.DataContext = new MainWindowViewModel();
         }
+
+       
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -36,9 +36,6 @@ namespace BsciWpf
 
         }
     }
-    public class Covik
-    {
-        public int Id { get; set; }
-        public string Ime { get; set; }
-    }
+   
+    
 }

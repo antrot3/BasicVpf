@@ -1,7 +1,6 @@
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\bin\Debug\BsciWpf.exe.config
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\bin\Debug\BsciWpf.exe
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\bin\Debug\BsciWpf.pdb
-C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\obj\Debug\BsciWpf.csprojAssemblyReference.cache
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\obj\Debug\MainWindow.g.cs
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\obj\Debug\App.g.cs
 C:\Users\arota\Desktop\BasicVpf\BasicVpf\BsciWpf\BsciWpf\obj\Debug\BsciWpf_MarkupCompile.cache
