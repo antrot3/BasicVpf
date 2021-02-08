@@ -23,9 +23,13 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="1" Grid.Column="1" Text="Test Text" FontSize="28" Grid.ColumnSpan="3"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ElementName=firstName, Path=Text}" FontSize="28" Grid.ColumnSpan="3"/>
         <TextBlock Grid.Row="2" Grid.Column="1" Text="First Name" />
         <TextBox x:Name="firstName" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" MinWidth="100" />
+        
         <Button x:Name="Button" Content="Click Me" FontSize="29" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Click="Button_Click"/>
+        <Label x:Name="newLabel" Grid.Row="4" Grid.Column="1" Content="{Binding Path=covik.Ime}" FontSize="28" Grid.ColumnSpan="3"/>
+
+
     </Grid>
 </Window>

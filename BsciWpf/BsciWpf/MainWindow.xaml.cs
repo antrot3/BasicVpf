@@ -20,9 +20,14 @@ namespace BsciWpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Covik covik { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+            covik = new Covik() { Id = 1, Ime = "Rota" };
+
+            this.DataContext = this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -30,5 +35,10 @@ namespace BsciWpf
             MessageBox.Show($"First Name : {firstName.Text}");
 
         }
+    }
+    public class Covik
+    {
+        public int Id { get; set; }
+        public string Ime { get; set; }
     }
 }
